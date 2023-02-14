@@ -1,0 +1,441 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Poppins;
+    background-color: #FCF5ED;
+}
+
+.navbar {
+    /*tulisan*/
+    position: fixed;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+
+.nav {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    margin-right: 5%;
+    font-size: 14px;
+}
+
+.navbar a {
+    color: #B49C5E;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: white;
+}
+
+.logo {
+    font-family: Playfair display;
+    flex: 1 1 auto;
+    padding: 0 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #B49C5E;
+}
+
+.logo a {
+    color: #B49C5E;
+}
+
+.banner-area {
+    position: relative;
+    background-image: url(img/homebg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#showcase {
+    background-image: url(../../img/jeremy-wong-weddings-464ps_nOflw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    color: white;
+}
+
+#showcase h3 {
+    font-family: Playfair display;
+    margin: 0px;
+}
+
+#showcase h1 {
+    font-family: Playfair display;
+    font-size: 72px;
+    margin: 0px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+#showcase p {
+    font-size: 14px;
+}
+
+#showcase img {
+    box-shadow: 10px 10px 5px #ccc;
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: #B49C5E;
+    color: #fff;
+}
+
+#showcase .button:hover {
+    background: white;
+    color: #B49C5E;
+    border: none;
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.column {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.card {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.card-header {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+}
+
+.card-area {
+    background-size: cover;
+    background-position: center center;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 39%;
+    top: 10%;
+}
+
+.card-border {
+    width: 30%;
+    /*background: white;*/
+    margin-bottom: 50px;
+}
+
+.card-header-about {
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    padding: 100px 20px;
+}
+
+.card-about {
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.card-body {
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-body p {
+    margin: 5px;
+}
+
+
+/*.card-body:hover{
+	transform: scale(1.05);
+	box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.25);
+}*/
+
+.card-body .btn {
+    display: box;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /*box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.25);*/
+}
+
+.card-border:hover {
+    transform: scale(1.05);
+    /*box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.25);*/
+}
+
+.Box {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.in-box-z {
+    max-width: 650px;
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*background-color: rgba(225,225,225,.8);*/
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .2);
+    padding: 40px;
+    letter-spacing: 2px;
+}
+
+.in-box {
+    max-width: 650px;
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /*background-color: rgba(225,225,225,.8);*/
+    /*box-shadow: 0 15px 20px rgba(0,0,0,.2);*/
+    padding: 40px;
+    letter-spacing: 2px;
+}
+
+.in-box-destination {
+    max-width: 650px;
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 40px;
+    letter-spacing: 2px;
+    /*border: 1px solid white;*/
+}
+
+.in-box-a {
+    width: 1000px;
+    position: relative;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /*background-color: #F8F8FF;*/
+    padding: 40px;
+    letter-spacing: 2px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    padding: 80px;
+}
+
+.flex-container>div {
+    /*color: white;*/
+    margin: 10px;
+    height: 300px;
+    width: 150px;
+    background-size: cover;
+}
+
+.flex-container h1 {
+    font-family: Playfair display;
+    color: #B49C5E;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.flex-container p {
+    color: black;
+    padding: 0px 10px;
+    font-size: 14px;
+}
+
+.side {
+    flex: 10%;
+    /*background-color: white;*/
+    padding: 20px;
+}
+
+.form input[type=text] {
+    background-color: #FCF5ED;
+    border: none;
+    border-bottom: 1px solid #B49C5E;
+    padding: 5px;
+    margin: 10px;
+}
+
+.form input[type=text]:focus {
+    outline: none;
+}
+
+.form option,
+select {
+    color: #FCF5ED;
+    background-color: #B49C5E;
+    border: 1px solid #B49C5E;
+    padding: 5px 80px 5px 5px;
+    margin: 10px;
+}
+
+.form input[type=submit] {
+    color: #FCF5ED;
+    background-color: #B49C5E;
+    border: 1px solid #B49C5E;
+    padding: 5px 15px;
+    margin: 10px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main h2 {
+    color: #790c5a;
+    text-shadow: 3px 5px 3px white;
+    font-family: Poppins;
+}
+
+.main p,
+.main h4 {
+    font-family: Poppins;
+}
+
+.table {
+    margin: auto;
+    width: 80%;
+    font-family: Century Gothic;
+    padding: 7px;
+}
+
+img {
+    border-radius: 40%;
+    margin-left: 15px;
+    width: 230px;
+    height: 230px;
+    box-shadow: 5px 5px black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /*background-color: white;*/
+}
+
+footer {
+    position: fix;
+    bottom: 0px;
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .ft {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.ft .content {
+    margin: 20px 0 0 0;
+}
+
+.content .bts {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.social {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.social a {
+    padding: 0 2px;
+}
+
+.social a span {
+    height: 40px;
+    width: 40px;
+    color: grey;
+}
+
+.social a span:hover {
+    color: gold;
+}
+
+.right {
+    flex: 10%;
+    padding: 10px;
+    /*background-color: white;*/
+}
+
+.footer {
+    /*position: absolute;*/
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer p {
+    color: grey;
+}
+
+
+/*# sourceMappingURL=home.css.map */
